@@ -7,8 +7,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import r2_score
 import matplotlib.pyplot as plt
 
-st.set_page_config(page_title="Shallow AI Trainer", layout="centered")
-st.title("🧠 Multi-Input Multi-Output Shallow AI Trainer (Tuned)")
+st.set_page_config(page_title="AI Trainer", layout="centered")
+st.title("Multi-Input Multi-Output AI Trainer")
 
 @st.cache_resource
 def train_model(X, y):
